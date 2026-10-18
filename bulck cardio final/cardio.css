@@ -1,0 +1,125 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+     
+#section1 {
+  border-radius: 10px;
+  background-color: #ddd;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+#section2 {
+  border-radius: 10px;
+  background-color: #ddd;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+#section3 {
+  border-radius: 10px;
+  background-color: #ddd;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+#section4 {
+  border-radius: 10px;
+  background-color: #ddd;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.video {
+  height: auto;
+  width:100%;
+}
+button {
+  --color: #560bad;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+ }
+ 
+ .more_button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+ }
+ 
+ .more_button:hover {
+  color: #fff;
+ }
+ 
+ .more_button:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ .more_button:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ .more_button:active:before {
+  background: #3a0ca3;
+  transition: background 0s;
+ }
+#hiddentips1 {
+    display: none;
+}
+#hiddentips2 {
+  display: none;
+}
+#hiddentips3 {
+  display: none;
+}
+#hiddentips4 {
+  display: none;
+}
+.tip_button {
+  height: 40px;
+  width: 50px;
+  display: inline-block;
+  margin-right: -1px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border:none;
+  color: white;;
+  background-color:#560bad;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  position: relative;
+  bottom:3px;
+  right: 2px;
+}
+.tip_button:hover {
+  background-color: white;;
+  color:#560bad;
+}
+.exercice {
+  font-family: fantasy;
+  
+}

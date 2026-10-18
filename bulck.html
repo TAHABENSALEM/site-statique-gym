@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="bulck.js"></script>
+        <link rel="stylesheet" href="bulck.css">
+        <link rel="icon" href="favicons\favicon2.png" type="image/x-icon">
+        <title>bulking page</title>
+    </head>
+    <body>
+        <div class="fitness-routine">
+            <h1 id="title">Want To Gain Some Muscles ?</h1>
+            <table class="fitness-table">
+                <tr>
+                    <th class="days">Monday</th>
+                    <th class="days">Tuesday</th>
+                    <th class="days">Wednesday</th>
+                    <th class="days">Thursday</th>
+                    <th class="days">Friday</th>
+                    <th class="days">Saturday</th>
+                    <th class="days">Sunday</th>
+                </tr>
+                <tr>
+                    <td><div class="elements">Bodybuilding</div>
+                        <ol>
+                            <li><a href="chest-page\chest.html" target="_blank"class="body-part">chest</a></li>
+                            <li><a href="shoulders-page\shoulders.html" target="_blank" class="body-part">shoulders</a></li>                  
+                        </ol>
+                    </td>
+                    <td><div class="elements">Bodybuilding</div>
+                        <ol>
+                            <li><a href="quadriceps-page\quadriceps.html" target="_blank" class="body-part">quadriceps</a></li>
+                            <li><a href="hamstrings-page\hamstrings.html" target="_blank" class="body-part">hamstrings</a></li>
+                        </ol>
+                    </td>
+                    <td><div class="elements">Bodybuilding</div>
+                        <ol>
+                            <li><a href="triceps-page\triceps.html" target="_blank" class="body-part">triceps</a></li>
+                            <li><a href="biceps-page\biceps.html" target="_blank" class="body-part">biceps</a></li>
+                        </ol>
+                    </td>
+                    <td class="rest-day-case" rowspan="2"><p class="rest-day">Rest Day</p></td>
+                    <td><div class="elements">Bodybuilding</div>
+                        <ol>
+                            <li><a href="back-page\back.html" target="_blank" class="body-part">back</a></li>
+                            <li><a href="abs-page\abs.html" target="_blank" class="body-part">abs</a></li>
+                        </ol>
+                    </td>
+                    <td><div class="elements">Bodybuilding</div>
+                        <ol>
+                            <li><a href="forarm-page\forarm.html" target="_blank" class="body-part">forearm</a></li>
+                            <li><a href="calves-page\calves.html" target="_blank" class="body-part">calves</a></li>
+                        </ol>
+                    </td>
+                    <td class="rest-day-case" rowspan="2"><p class="rest-day">Rest Day</p></td>
+                </tr>
+                <tr>
+                    <td><div class="elements"><a href="bulck cardio final\cardio1.html" target="_blank" class="cardio">Cardio</a></div></td>
+                    <td><div class="elements"><a href="bulck cardio final\cardio2.html" target="_blank" class="cardio">Cardio</a></div></td>
+                    <td><div class="elements"><a href="bulck cardio final\cardio3.html" target="_blank" class="cardio">Cardio</a></div></td>
+                    <td><div class="elements"><a href="bulck cardio final\cardio4.html" target="_blank" class="cardio">Cardio</a></div></td>
+                    <td><div class="elements"><a href="bulck cardio final\cardio5.html" target="_blank" class="cardio">Cardio</a></div></td>
+                </tr>
+            </table>
+        </div>
+        <div id="button_container">
+        <button onclick=toggleHiddenInfo() id="food_button">Food</button>
+        </div>
+        <div id="hiddenInfo">
+            <p id="writings">
+                Providing a specific number can be challenging as individual caloric needs
+                vary greatly based on factors like age, gender, weight, activity level, 
+                and metabolism.
+                <br>
+                However, as a rough estimate for someone looking to bulk and gain weight,
+                a common starting point is often around 500 calories above their estimated maintenance calories.
+            </p>
+            <p id="writings">
+                Harris-Benedict Equation for the number of calories your body needs per day:
+                <br>
+                <u style="color: blue;"><i>For men ♂ :</i></u><p class="formule">88.362 + ( 13.397 × weight in kg ) + ( 4.799 × height in cm ) − ( 5.677 × age in years )</p> 
+                <br>
+                <u style="color: deeppink;"><i>For women ♀ :</i></u><p class="formule">447.593 + ( 9.247 × weight in kg ) + ( 3.098 × height in cm ) − ( 4.330 × age in years )</p>
+            </p>
+            <h1 id="food-table-title">High-Calorie, High-Carb Ingredients for Gain Weight Training</h1>
+            <table class="food-table">
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Calories(per 100g)</th>
+                    <th>Carbs(per 100g)</th>
+                    <th>Proteins(per 100g)</th>
+                    <th>Fats(per 100g)</th>
+                </tr>
+                <tr>
+                    <td>Pasta</td>
+                    <td>120cal</td>
+                    <td>24g</td>
+                    <td>8g</td>
+                    <td>1g</td>
+                </tr>
+                <tr>
+                    <td>Whole Milk</td>
+                    <td>63cal</td>
+                    <td>13g</td>
+                    <td>8g</td>
+                    <td>5g</td>
+                </tr>
+                <tr>
+                    <td>Bread</td>
+                    <td>110cal</td>
+                    <td>22g</td>
+                    <td>8g</td>
+                    <td>2g</td>
+                </tr>
+                <tr>
+                    <td>Broccoli</td>
+                    <td>34cal</td>
+                    <td>8g</td>
+                    <td>3g</td>
+                    <td>0.4g</td>
+                </tr>
+                <tr>
+                    <td>Cheese</td>
+                    <td>360cal</td>
+                    <td>2.5g</td>
+                    <td>18g</td>
+                    <td>32g</td>
+                </tr>
+                <tr>
+                    <td>Oatmeal</td>
+                    <td>346cal</td>
+                    <td>82g</td>
+                    <td>12g</td>
+                    <td>2g</td>
+                </tr>
+                <tr>
+                    <td>Banana</td>
+                    <td>105cal</td>
+                    <td>27g</td>
+                    <td>1g</td>
+                    <td>0g</td>
+                </tr>
+                <tr>
+                    <td>Chocolate</td>
+                    <td>546cal</td>
+                    <td>61g</td>
+                    <td>6g</td>
+                    <td>31g</td>
+                </tr>
+                <tr>
+                    <td>Ice Cream</td>
+                    <td>233cal</td>
+                    <td>38g</td>
+                    <td>4g</td>
+                    <td>16g</td>
+                </tr>
+                <tr>
+                    <td>Corn Tortillas</td>
+                    <td>120cal</td>
+                    <td>35g</td>
+                    <td>1g</td>
+                    <td>1g</td>
+                </tr>
+                <tr>
+                    <td>Rye Bread</td>
+                    <td>100cal</td>
+                    <td>20g</td>
+                    <td>10g</td>
+                    <td>3g</td>
+                </tr>
+                <tr>
+                    <td>Brown Rice</td>
+                    <td>130cal</td>
+                    <td>35g</td>
+                    <td>1g</td>
+                    <td>0g</td>
+                </tr>
+                <tr>
+                    <td>White Rice</td>
+                    <td>120cal</td>
+                    <td>30g</td>
+                    <td>1g</td>
+                    <td>0g</td>
+                </tr>
+                <tr>
+                    <td>Cereal</td>
+                    <td>120cal</td>
+                    <td>30g</td>
+                    <td>10g</td>
+                    <td>2g</td>
+                </tr>
+                <tr>
+                    <td>Bagels</td>
+                    <td>100cal</td>
+                    <td>25g</td>
+                    <td>8g</td>
+                    <td>1g</td>
+                </tr>
+                <tr>
+                    <td>Chicken Breast</td>
+                    <td>165cal</td>
+                    <td>0g</td>
+                    <td>31g</td>
+                    <td>3.6g</td>
+                </tr>
+                <tr>
+                    <td>Salmon</td>
+                    <td>206cal</td>
+                    <td>0g</td>
+                    <td>22g</td>
+                    <td>13g</td>
+                </tr>
+                <tr>
+                    <td>Quinoa</td>
+                    <td>120cal</td>
+                    <td>21g</td>
+                    <td>4g</td>
+                    <td>1.9g</td>
+                </tr>
+                <tr>
+                    <td>Spinach</td>
+                    <td>23cal</td>
+                    <td>3.6g</td>
+                    <td>2.9g</td>
+                    <td>0.4g</td>
+                </tr>
+                <tr>
+                    <td>Greek Yogurt</td>
+                    <td>59cal</td>
+                    <td>3.6g</td>
+                    <td>10g</td>
+                    <td>0.4g</td>
+                </tr>
+                <tr>
+                    <td>Avocado</td>
+                    <td>160cal</td>
+                    <td>8.5g</td>
+                    <td>2g</td>
+                    <td>14g</td>
+                </tr>
+                <tr>
+                    <td>Eggs</td>
+                    <td>68cal</td>
+                    <td>0.6g</td>
+                    <td>5.5g</td>
+                    <td>4.8g</td>
+                </tr>
+                <tr>
+                    <td>Almonds</td>
+                    <td>576cal</td>
+                    <td>21g</td>
+                    <td>21g</td>
+                    <td>49g</td>
+                </tr>
+                <tr>
+                    <td>Sweet Potato</td>
+                    <td>86cal</td>
+                    <td>20g</td>
+                    <td>1.6g</td>
+                    <td>0.1g</td>
+                </tr>
+                    <td>Ground Beef (90% lean)</td>
+                    <td>250cal</td>
+                    <td>0g</td>
+                    <td>26g</td>
+                    <td>17g</td>
+                </tr>
+                <tr>
+                    <td>Soybeans</td>
+                    <td>173cal</td>
+                    <td>9g</td>
+                    <td>17g</td>
+                    <td>9g</td>
+                </tr>
+                <tr>
+                    <td>Sweet Corn</td>
+                    <td>86cal</td>
+                    <td>19g</td>
+                    <td>3g</td>
+                    <td>1g</td>
+                </tr>
+                <tr>
+                    <td>Shrimp</td>
+                    <td>99cal</td>
+                    <td>1.2g</td>
+                    <td>24g</td>
+                    <td>0.3g</td>
+                </tr>
+                <tr>
+                    <td>Tofu</td>
+                    <td>144cal</td>
+                    <td>3.9g</td>
+                    <td>15g</td>
+                    <td>8g</td>
+                </tr>
+                <tr>
+                    <td>Chickpeas</td>
+                    <td>164cal</td>
+                    <td>27g</td>
+                    <td>8.9g</td>
+                    <td>2.6g</td>
+                </tr>
+                <tr>
+                    <td>French Fries</td>
+                    <td>365cal</td>
+                    <td>63g</td>
+                    <td>3.4g</td>
+                    <td>15g</td>
+                </tr>
+                <tr>
+                    <td>White Bread</td>
+                    <td>265cal</td>
+                    <td>49g</td>
+                    <td>7.5g</td>
+                    <td>2.7g</td>
+                </tr>
+                <tr>
+                    <td>Soda (Regular)</td>
+                    <td>42cal</td>
+                    <td>10.6g</td>
+                    <td>0g</td>
+                    <td>0g</td>
+                </tr>
+                <tr>
+                    <td>Chocolate Chip Cookies</td>
+                    <td>488cal</td>
+                    <td>57g</td>
+                    <td>4.9g</td>
+                    <td>27g</td>
+                </tr>
+                <tr>
+                    <td>Processed Cheese</td>
+                    <td>311cal</td>
+                    <td>2.3g</td>
+                    <td>18g</td>
+                    <td>25g</td>
+                </tr>
+                <tr>
+                    <td>Hot Dog</td>
+                    <td>150cal</td>
+                    <td>2g</td>
+                    <td>5g</td>
+                    <td>13g</td>
+                </tr>
+                <tr>
+                    <td>Instant Ramen</td>
+                    <td>187cal</td>
+                    <td>29g</td>
+                    <td>4g</td>
+                    <td>6g</td>
+                </tr>
+                <tr>
+                    <td>Regular Potato Chips</td>
+                    <td>536cal</td>
+                    <td>53g</td>
+                    <td>6g</td>
+                    <td>34g</td>
+                </tr>
+                <tr>
+                    <td>Donut</td>
+                    <td>452cal</td>
+                    <td>50g</td>
+                    <td>5.4g</td>
+                    <td>26g</td>
+                </tr>
+                <tr>
+                    <td>Potato Chips (Flavored)</td>
+                    <td>492cal</td>
+                    <td>51g</td>
+                    <td>6g</td>
+                    <td>31g</td>
+                </tr>
+                <tr>
+                    <td>Macaroni and Cheese</td>
+                    <td>188cal</td>
+                    <td>27g</td>
+                    <td>8g</td>
+                    <td>6g</td>
+                </tr>
+                <tr>
+                    <td>Pizza</td>
+                    <td>285cal</td>
+                    <td>36g</td>
+                    <td>12g</td>
+                    <td>10g</td>
+                </tr>
+                <tr>
+                    <td>Canned Soup (Creamy)</td>
+                    <td>103cal</td>
+                    <td>8.5g</td>
+                    <td>2.4g</td>
+                    <td>6.8g</td>
+                </tr>
+                <tr>
+                    <td>Bacon</td>
+                    <td>415cal</td>
+                    <td>0.4g</td>
+                    <td>15g</td>
+                    <td>41g</td>
+                </tr>
+                <tr>
+                    <td>Cookies</td>
+                    <td>488cal</td>
+                    <td>65g</td>
+                    <td>4.9g</td>
+                    <td>23g</td>
+                </tr>
+                <tr>
+                    <td>Energy Drink</td>
+                    <td>45cal</td>
+                    <td>11g</td>
+                    <td>0g</td>
+                    <td>0g</td>
+                </tr>
+                <tr>
+                    <td>Cheeseburger</td>
+                    <td>250cal</td>
+                    <td>26g</td>
+                    <td>12g</td>
+                    <td>12g</td>
+                </tr>
+            </table>      
+        </div>
+    </body>
+</html>

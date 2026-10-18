@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(white,rgb(122, 120, 120) );
+}
+.fitness-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.fitness-table th,
+.fitness-table td {
+    border: 1px solid black;
+    padding: 8px; 
+}
+.fitness-table td:nth-child(2) {
+    height: 120px;
+  }
+.fitness-table th {
+    background-color:black;
+}
+.fitness-table ol {
+    margin-left: -20px;
+}
+.elements{
+    text-align: center;
+}
+.rest-day {
+  font-family: cursive;
+  color:black;
+  text-align: center;
+  transform: rotate(45deg);
+  transition: 0.7s;
+}
+table tr td.rest-day-case:hover {
+  background-color:rgb(122, 120, 120);
+  .rest-day{
+    color: white;
+    font-size: 30px;
+  }
+ } 
+.food-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.food-table th, 
+.food-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.food-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+#hiddenInfo {
+  text-align: center;
+    display: none;
+}
+#button_container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#food_button{
+  font-weight: bold;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+#food_button:hover {
+    background-color: black;
+    box-shadow: 0px 15px 20px black;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+#food_button:active {
+    transform: translateY(-1px);
+}
+.cardio-elemnts {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+}
+.elements{
+    font-family: fantasy;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+.cardio {
+    text-decoration: none;
+    color: #000;
+
+}
+.body-part {
+    color:rgb(78, 77, 77);
+    text-decoration: none;
+}
+#title {
+    font-size: 60px;
+    padding: 50px;
+    text-align: center;
+    color: rgb(122, 120, 120);
+}
+#writings{
+  margin-top: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.formule {
+  font-weight: bold;
+}
+#food-table-title{
+  margin-top: 70px;
+  margin-bottom: 50px;
+  color:rgb(122, 120, 120);
+}
+.days {
+    color:white;
+}

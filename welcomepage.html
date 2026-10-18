@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicons\favicon1.png" type="image/x-icon">
+    <title>welcome page</title>
+    <link rel="stylesheet" href="welcomepage.css">
+    <script>
+      function redirectToPage() {
+        const selectElement = document.getElementById("gender");
+        const input1 = selectElement.value;
+          var input2=document.getElementById("weight").value;
+          var input3=document.getElementById("height").value;
+          if(input1=="man") {
+            if ((50 <= input2 && input2 <= 55) && (150 <= input3 && input3 <= 170)) {window.open("bulck.html");}
+            else if ((55 <= input2 && input2 <= 60) && (155 <= input3 && input3 <= 175)) {window.open("bulck.html");}
+            else if ((60 <= input2 && input2 <= 65) && (160 <= input3 && input3 <= 180)) {window.open("bulck.html");}
+            else if ((65 <= input2 && input2 <= 70) && (165 <= input3 && input3 <= 185)) {window.open("bulck.html");}
+            else if ((70 <= input2 && input2 <= 75) && (170 <= input3 && input3 <= 190)) {window.open("bulck.html");}
+            else if ((75 <= input2 && input2 <= 80) && (175 <= input3 && input3 <= 195)) {window.open("bulck.html");}
+            else if ((80 <= input2 && input2 <= 85) && (180 <= input3 && input3 <= 200)) {window.open("bulck.html");}
+            else if ((85 <= input2 && input2 <= 90) && (185 <= input3 && input3 <= 205)) {window.open("bulck.html");}
+            else if ((90 <= input2 && input2 <= 95) && (190 <= input3 && input3 <= 210)) {window.open("bulck.html");}
+            else if ((95 <= input2 && input2 <= 100) && (195 <= input3 && input3 <= 215)) {window.open("bulck.html");}
+            else {window.open("cut.html");}
+          }
+          else{
+          if ((50 <= input2 && input2 <= 55) && (145 <= input3 && input3 <= 165)) {window.open("bulck.html");} 
+          else if ((55 <= input2 && input2 <= 60) && (150 <= input3 && input3 <= 170)) {window.open("bulck.html");}
+          else if ((60 <= input2 && input2 <= 65) && (155 <= input3 && input3 <= 175)) {window.open("bulck.html");}
+          else if ((65 <= input2 && input2 <= 70) && (160 <= input3 && input3 <= 180)) {window.open("bulck.html");}
+          else if ((70 <= input2 && input2 <= 75) && (165 <= input3 && input3 <= 185)) {window.open("bulck.html");}
+          else if ((75 <= input2 && input2 <= 80) && (170 <= input3 && input3 <= 190)) {window.open("bulck.html");}
+          else if ((80 <= input2 && input2 <= 85) && (175 <= input3 && input3 <= 195)) {window.open("bulck.html");}
+          else if ((85 <= input2 && input2 <= 90) && (180 <= input3 && input3 <= 200)) {window.open("bulck.html");}
+          else if ((90 <= input2 && input2 <= 95) && (185 <= input3 && input3 <= 205)) {window.open("bulck.html");}
+          else if ((95 <= input2 && input2 <= 100) && (190 <= input3 && input3 <= 210)) {window.open("bulck.html");}
+          else {window.open("cut.html");}
+          }
+      }
+    </script>
+
+</head>
+<body>
+  <h1 id="titre">welcome to online coaching</h1>
+  <div class="form">
+    <table>
+      <tr>
+        <td><label for="gender">Gender:</label></td>
+        <td>    
+          <select id="gender">
+            <option value="man">Man</option>
+            <option value="woman">Woman</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="weight">Weight:</label></td>
+        <td><input class="container" placeholder="weight in kg" type="text" id="weight" required></td>
+      </tr>
+      <tr>
+        <td><label for="height">Height:</label></td>
+        <td><input class="container" placeholder="height in cm" type="text" id="height" required></td>
+      </tr>
+    </table>
+    <div class="button-container">
+      <button class="button type1" onclick="redirectToPage()">
+        <span class="btn-txt">Submit</span>
+      </button>
+    </div>
+  </div>
+
+  <div id="image-container">
+    <img src="img.png" height="350" width="550">
+  </div>
+</body>
+</html>

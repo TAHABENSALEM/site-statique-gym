@@ -1,0 +1,384 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="bulck.js"></script>
+        <link rel="stylesheet" href="bulck.css">
+        <link rel="icon" href="favicons\favicon3.png" type="image/x-icon">
+        <title>cutting page</title>
+    </head>
+    <body>
+        <div class="fitness-routine">
+            <h1 id="title">Want To Lose Some Weight ?</h1>
+            <table class="fitness-table">
+                <tr>
+                    <th class="days">Monday</th>
+                    <th class="days">Tuesday</th>
+                    <th class="days">Wednesday</th>
+                    <th class="days">Thursday</th>
+                    <th class="days">Friday</th>
+                    <th class="days">Saturday</th>
+                    <th class="days">Sunday</th>
+                </tr>
+                <tr>
+                    <td><div class="elements">Bodybuilding</div>
+                        <ol>
+                            <li><a href="chest-page\chest.html" target="_blank" class="body-part">chest</a></li>
+                            <li><a href="shoulders-page\shoulders.html" target="_blank" class="body-part">shoulders</a></li>                  
+                        </ol>
+                    </td>
+                    <td><div class="elements">Bodybuilding</div>
+                        <ol>
+                            <li><a href="quadriceps-page\quadriceps.html" target="_blank" class="body-part">quadriceps</a></li>
+                            <li><a href="hamstrings-page\hamstrings.html" target="_blank" class="body-part">hamstrings</a></li>
+                        </ol>
+                    </td>
+                    <td><div class="elements">Bodybuilding</div>
+                        <ol>
+                            <li><a href="triceps-page\triceps.html" target="_blank" class="body-part">triceps</a></li>
+                            <li><a href="biceps-page\biceps.html" target="_blank" class="body-part">biceps</a></li>
+                        </ol>
+                    </td>
+                    <td class="rest-day-case" rowspan="2"><p class="rest-day">Rest Day</p></td>
+                    <td><div class="elements">Bodybuilding</div>
+                        <ol type="1">
+                            <li><a href="back-page\back.html" target="_blank" class="body-part">back</a></li>
+                            <li><a href="abs-page\abs.html" target="_blank" class="body-part">abs</a></li>
+                        </ol>
+                    </td>
+                    <td><div class="elements">Bodybuilding</div>
+                        <ol>
+                            <li><a href="forarm-page\forarm.html" target="_blank" class="body-part">forearm</a></li>
+                            <li><a href="calves-page\calves.html" target="_blank" class="body-part">calves</a></li>
+                        </ol>
+                    </td>
+                    <td class="rest-day-case" rowspan="2"><p class="rest-day">Rest Day</p></td>
+                </tr>
+                <tr>
+                    <td><div class="elements"><a href="cut cardio final\cardio1.html" target="_blank" class="cardio">Cardio</a></div></td>
+                    <td><div class="elements"><a href="cut cardio final\cardio2.html" target="_blank" class="cardio">Cardio</a></div></td>
+                    <td><div class="elements"><a href="cut cardio final\cardio3.html" target="_blank" class="cardio">Cardio</a></div></td>
+                    <td><div class="elements"><a href="cut cardio final\cardio4.html" target="_blank" class="cardio">Cardio</a></div></td>
+                    <td><div class="elements"><a href="cut cardio final\cardio5.html" target="_blank" class="cardio">Cardio</a></div></td>
+                </tr>
+            </table>
+        </div>
+        <div id="button_container">
+        <button onclick=toggleHiddenInfo() id="food_button">Food</button>
+        </div>
+        <div id="hiddenInfo">
+            <p id="writings">
+                Embrace a transformative journey: Commit to change, face discomfort head-on, and emerge resilient.
+                You, unequivocally, are the architect of your vitality.
+                Every step is a testament to your strength, and every choice shapes a healthier, more empowered you.
+                <br>
+                However, as a rough estimate for someone looking to bulk and gain weight,
+                a common starting point is often around 500 calories above their estimated maintenance calories.
+            </p>
+            <p id="writings">
+                Harris-Benedict Equation for the number of calories your body needs per day:
+                <br>
+                <u style="color: blue;"><i>For men ♂ :</i></u><p class="formule">88.362 + ( 13.397 × weight in kg ) + ( 4.799 × height in cm ) − ( 5.677 × age in years )</p> 
+                <br>
+                <u style="color: deeppink;"><i>For women ♀ :</i></u><p class="formule">447.593 + ( 9.247 × weight in kg ) + ( 3.098 × height in cm ) − ( 4.330 × age in years )</p>
+            </p>
+            <h1 id="food-table-title">Healthy Food Options</h1>
+            <table class="food-table">
+                <tr>
+                    <th>Food Item</th>
+                    <th>Calories (per 100g)</th>
+                    <th>Carbohydrates (per 100g)</th>
+                    <th>Proteins (per 100g)</th>
+                    <th>Fats (per 100g)</th>
+                </tr>
+                <tr>
+                    <td>Salmon</td>
+                    <td>206cal</td>
+                    <td>0g</td>
+                    <td>22g</td>
+                    <td>13g</td>
+                </tr>
+                <tr>
+                    <td>Avocado</td>
+                    <td>160cal</td>
+                    <td>8.5g</td>
+                    <td>2g</td>
+                    <td>14g</td>
+                </tr>
+                <tr>
+                    <td>Quinoa</td>
+                    <td>120cal</td>
+                    <td>21g</td>
+                    <td>4g</td>
+                    <td>1.9g</td>
+                </tr>
+                <tr>
+                    <td>Almonds</td>
+                    <td>576cal</td>
+                    <td>21g</td>
+                    <td>21g</td>
+                    <td>49g</td>
+                </tr>
+                <tr>
+                    <td>Spinach</td>
+                    <td>23cal</td>
+                    <td>3.6g</td>
+                    <td>2.9g</td>
+                    <td>0.4g</td>
+                </tr>
+                <tr>
+                    <td>Chicken Breast</td>
+                    <td>165cal</td>
+                    <td>0g</td>
+                    <td>31g</td>
+                    <td>3.6g</td>
+                </tr>
+                <tr>
+                    <td>Broccoli</td>
+                    <td>34cal</td>
+                    <td>8g</td>
+                    <td>3g</td>
+                    <td>0.4g</td>
+                </tr>
+                <tr>
+                    <td>Kale</td>
+                    <td>49cal</td>
+                    <td>11g</td>
+                    <td>3g</td>
+                    <td>0.5g</td>
+                </tr>
+                <tr>
+                    <td>Blueberries</td>
+                    <td>57cal</td>
+                    <td>14g</td>
+                    <td>0.7g</td>
+                    <td>0.3g</td>
+                </tr>
+                <tr>
+                    <td>Greek Yogurt (Low-fat)</td>
+                    <td>59cal</td>
+                    <td>3.6g</td>
+                    <td>10g</td>
+                    <td>0.4g</td>
+                </tr>
+                <tr>
+                    <td>Salmon</td>
+                    <td>206cal</td>
+                    <td>0g</td>
+                    <td>22g</td>
+                    <td>13g</td>
+                </tr>
+                <tr>
+                    <td>Chickpeas</td>
+                    <td>164cal</td>
+                    <td>27g</td>
+                    <td>8.9g</td>
+                    <td>2.6g</td>
+                </tr>
+                <tr>
+                    <td>Lentils</td>
+                    <td>116cal</td>
+                    <td>20g</td>
+                    <td>9g</td>
+                    <td>0.4g</td>
+                </tr>
+                <tr>
+                    <td>Sweet Potato</td>
+                    <td>86cal</td>
+                    <td>20g</td>
+                    <td>1.6g</td>
+                    <td>0.1g</td>
+                </tr>
+                <tr>
+                    <td>Brussels Sprouts</td>
+                    <td>43cal</td>
+                    <td>9g</td>
+                    <td>3.4g</td>
+                    <td>0.3g</td>
+                </tr>
+                <tr>
+                    <td>Oranges</td>
+                    <td>43cal</td>
+                    <td>8.3g</td>
+                    <td>1g</td>
+                    <td>0.2g</td>
+                </tr>
+                <tr>
+                    <td>Steel-Cut Oats</td>
+                    <td>68cal</td>
+                    <td>12g</td>
+                    <td>2.5g</td>
+                    <td>1.4g</td>
+                </tr>
+                <tr>
+                    <td>Walnuts</td>
+                    <td>654cal</td>
+                    <td>13.7g</td>
+                    <td>15g</td>
+                    <td>65.2g</td>
+                </tr>
+                <tr>
+                    <td>Asparagus</td>
+                    <td>20cal</td>
+                    <td>3.7g</td>
+                    <td>2.2g</td>
+                    <td>0.2g</td>
+                </tr>
+                <tr>
+                    <td>Cabbage</td>
+                    <td>25cal</td>
+                    <td>6g</td>
+                    <td>1.3g</td>
+                    <td>0.1g</td>
+                </tr>
+                <tr>
+                    <td>Quinoa</td>
+                    <td>120cal</td>
+                    <td>21g</td>
+                    <td>4g</td>
+                    <td>1.9g</td>
+                </tr>
+                <tr>
+                    <td>Blackberries</td>
+                    <td>43cal</td>
+                    <td>9.7g</td>
+                    <td>2g</td>
+                    <td>0.5g</td>
+                </tr>
+                <tr>
+                    <td>Artichokes</td>
+                    <td>47cal</td>
+                    <td>11g</td>
+                    <td>3.3g</td>
+                    <td>0.2g</td>
+                </tr>
+                <tr>
+                    <td>Beets</td>
+                    <td>43cal</td>
+                    <td>9.6g</td>
+                    <td>1.6g</td>
+                    <td>0.2g</td>
+                </tr>
+                <tr>
+                    <td>Strawberries</td>
+                    <td>32cal</td>
+                    <td>7.7g</td>
+                    <td>0.7g</td>
+                    <td>0.3g</td>
+                </tr>
+                <tr>
+                    <td>Cauliflower</td>
+                    <td>25cal</td>
+                    <td>5g</td>
+                    <td>2g</td>
+                    <td>0.3g</td>
+                </tr>
+                <tr>
+                    <td>Quinoa Salad</td>
+                    <td>120cal</td>
+                    <td>20g</td>
+                    <td>4g</td>
+                    <td>2g</td>
+                </tr>
+                <tr>
+                    <td>Steamed Asparagus</td>
+                    <td>20cal</td>
+                    <td>4g</td>
+                    <td>2g</td>
+                    <td>0.2g</td>
+                </tr>
+                <tr>
+                    <td>Chia Seed Pudding</td>
+                    <td>101cal</td>
+                    <td>12g</td>
+                    <td>3g</td>
+                    <td>5g</td>
+                </tr>
+                <tr>
+                    <td>Mango Salsa</td>
+                    <td>60cal</td>
+                    <td>15g</td>
+                    <td>1g</td>
+                    <td>0.6g</td>
+                </tr>
+                <tr>
+                    <td>Grilled Chicken Breast</td>
+                    <td>165cal</td>
+                    <td>0g</td>
+                    <td>31g</td>
+                    <td>3.6g</td>
+                </tr>
+                <tr>
+                    <td>Baked Sweet Potato Fries</td>
+                    <td>90cal</td>
+                    <td>20g</td>
+                    <td>1.6g</td>
+                    <td>0.2g</td>
+                </tr>
+                <tr>
+                    <td>Walnut and Spinach Salad</td>
+                    <td>120cal</td>
+                    <td>8g</td>
+                    <td>4g</td>
+                    <td>10g</td>
+                </tr>
+                <tr>
+                    <td>Roasted Brussels Sprouts</td>
+                    <td>43cal</td>
+                    <td>9g</td>
+                    <td>3g</td>
+                    <td>0.3g</td>
+                </tr>
+                <tr>
+                    <td>Grilled Salmon with Lemon</td>
+                    <td>206cal</td>
+                    <td>0g</td>
+                    <td>22g</td>
+                    <td>13g</td>
+                </tr>
+                <tr>
+                    <td>Greek Yogurt Parfait</td>
+                    <td>120cal</td>
+                    <td>15g</td>
+                    <td>10g</td>
+                    <td>2g</td>
+                </tr>
+                <tr>
+                    <td>Hummus with Carrot Sticks</td>
+                    <td>166cal</td>
+                    <td>20g</td>
+                    <td>6g</td>
+                    <td>8g</td>
+                </tr>
+                <tr>
+                    <td>Roasted Cauliflower</td>
+                    <td>25cal</td>
+                    <td>5g</td>
+                    <td>2g</td>
+                    <td>0.3g</td>
+                </tr>
+                <tr>
+                    <td>Spaghetti Squash with Tomato Sauce</td>
+                    <td>31cal</td>
+                    <td>7g</td>
+                    <td>1g</td>
+                    <td>0.6g</td>
+                </tr>
+                <tr>
+                    <td>Green Smoothie with Kale</td>
+                    <td>80cal</td>
+                    <td>15g</td>
+                    <td>5g</td>
+                    <td>1g</td>
+                </tr>
+                <tr>
+                    <td>Baked Chicken with Rosemary</td>
+                    <td>165cal</td>
+                    <td>0g</td>
+                    <td>31g</td>
+                    <td>3.6g</td>
+                </tr>
+            </table>  
+        </div>
+    </body>
+</html>
